@@ -22,6 +22,67 @@ h1 {
     background-size: cover;
 }
 
+.info_team {
+    display: flex;
+    padding-left: 30%;
+}
+
+.info_team td {
+    padding-right: 70px;
+}
+
+
+.info_team img {
+
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s;
+}
+
+#abyssal_icon:hover {
+    box-shadow: 3px 1px 15px 5px rgba(0, 0, 0, 0.20);
+
+}
+
+#special_knife {
+    transition: filter 0.3s;
+}
+
+
+#special_knife:hover {
+
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.312));
+
+}
+
+.info_team table {
+    border-spacing: 25px;
+
+    font-size: 18px;
+    border-collapse: separate;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.info_team th {
+    font-weight: normal;
+
+    text-align: left;
+
+}
+
+#special_knife {
+    margin-left: 50px;
+}
+
+#special_knife_desc {
+    margin-left: 50px;
+}
+
 h2 {
     text-align: center;
     border-radius: 10;
@@ -144,15 +205,27 @@ body {
 }
 
 .link_thing img {
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
+    transition: filter 0.3s;
+}
+
+.link_thing img:hover {
+    filter: drop-shadow(4px 4px 7px rgba(0, 0, 0, 0.24));
 }
 
 .link_thing_youtube img {
     width: 150px;
     height: 150px;
     border-radius: 20px;
+    transition: box-shadow 0.3s;
+
 }
+
+.link_thing_youtube img:hover {
+    box-shadow: 3px 4px 15px 5px rgba(0, 0, 0, 0.20);
+}
+
 
 .image_test {
     position: relative;
@@ -229,10 +302,10 @@ body {
 .socials {
     width: 70%;
     height: 50%;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin: 50px 50% 0px 200px;
-    font-size: 50px;
+    font-size: 40px;
 
 
 

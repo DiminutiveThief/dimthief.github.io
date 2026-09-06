@@ -104,6 +104,7 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    max-width: 1700px;
 
 }
 
@@ -183,7 +184,7 @@ body {
 
     display: grid;
     place-items: center;
-    border-spacing: 140px 0px;
+    border-spacing: 140px 18px;
     text-align: center;
     /* padding: 50px 50px 50px 50px;*/
 
@@ -380,6 +381,10 @@ html,
 body {
     overscroll-behavior-x: none;
     overscroll-behavior-y: none;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 0;
 }
 
 .contentblock {
@@ -561,5 +566,14 @@ audio {
     background-color: #1348777c;
     border-radius: 20px;
     padding-bottom: 20px;
+
+}
+
+.desc_text_index {
+    font-size: 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 100px;
+
 
 }

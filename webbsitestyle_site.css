@@ -591,7 +591,11 @@ audio {
         margin: 0px;
     }
 
-    .samples table {
+    .samples table,
+    thead,
+    tbody,
+    tr,
+    td {
 
 
         width: 100%;

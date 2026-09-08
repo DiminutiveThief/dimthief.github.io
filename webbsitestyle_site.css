@@ -591,4 +591,11 @@ audio {
         margin: 0px;
     }
 
+    .samples table {
+
+
+        border-spacing: 140px 18px;
+        text-align: center;
+    }
+
 }

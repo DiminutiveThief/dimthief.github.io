@@ -594,9 +594,10 @@ audio {
     .samples table {
 
 
-        border-spacing: 140px 18px;
+        width: 100%;
         text-align: center;
         border-spacing: 0px 0px;
+        display: block;
 
     }
 

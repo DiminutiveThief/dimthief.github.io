@@ -577,3 +577,9 @@ audio {
 
 
 }
+
+@media(min-width:800px) {
+    h1 {
+        color: #c96a61;
+    }
+}

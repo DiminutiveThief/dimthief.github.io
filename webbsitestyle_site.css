@@ -579,5 +579,8 @@ audio {
 }
 
 @media(max-width: 360px) {
-    max-width: 360px;
+    body {
+        max-width: 360px;
+    }
+
 }

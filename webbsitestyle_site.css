@@ -596,6 +596,8 @@ audio {
 
         border-spacing: 140px 18px;
         text-align: center;
+        border-spacing: 0px 0px;
+
     }
 
 }

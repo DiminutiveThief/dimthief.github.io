@@ -217,6 +217,7 @@ body {
 
 .link_thing_youtube img {
     width: 150px;
+
     height: 150px;
     border-radius: 20px;
     transition: box-shadow 0.3s;
@@ -380,8 +381,8 @@ body {
 html,
 body {
     overscroll-behavior-x: none;
-    overscroll-behavior-y: none;
-    overflow: hidden;
+
+    /*overflow: hidden;*/
     margin: 0;
     width: 100%;
     padding: 0;
@@ -580,35 +581,144 @@ audio {
 
 @media(max-width: 360px) {
     body {
+        overflow-x: auto;
+        overflow-y: auto;
         max-width: 360px;
+        max-height: 760px;
+
     }
 
     .bodyreal {
-        margin: 10px 5px 5px 0px;
+        margin: 20px 5px 5px 0px;
     }
 
-    .links {
-        margin: 0px;
+    #dim_thief {
+        margin-bottom: 40px;
+        font-size: 12px;
+        height: 69px;
     }
 
     .samples table,
-
-    tbody,
-    tr,
-    td,
     th {
+        width: 80px;
+        border-spacing: 20px 20px;
+    }
 
+    .samples img {
+        width: 160px;
+        height: 100px;
 
-        width: 100%;
-        text-align: center;
-        border-spacing: 0px 0px;
-        display: block;
 
     }
 
-    .samples.img {
-        width: 50px;
+    .samples {
+        overflow-x: auto;
+    }
+
+    .row_header {
+        font-size: 20px;
 
     }
 
+    .examples {
+        margin: 0px;
+    }
+
+    .desc_text_index {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .aboutbody {
+        font-size: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 0px;
+
+    }
+
+    .info_team {
+
+        font-size: 15px;
+
+    }
+
+    .info_team img {
+        height: 100px;
+        width: 100px;
+
+        border-radius: 20px;
+
+
+    }
+
+    #special_knife_desc {
+        font-size: 15px;
+    }
+
+    .info_team table {
+        font-size: 15px;
+    }
+
+    .socials {
+        font-size: 20px;
+    }
+
+    .socialslinks {
+
+        height: 25%;
+        width: 25%;
+    }
+
+
+
+    .link_thing img {
+
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100px;
+        margin-bottom: 0px;
+        height: 100px;
+
+    }
+
+    .link_thing_youtube img {
+
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+
+    }
+
+    .info_team {
+        display: inline;
+        justify-content: space-between;
+        border: 1px coral solid;
+        font-size: 7px;
+        text-wrap-mode: wrap;
+
+    }
+
+    .info_team img {
+        width: 80px;
+        height: 80px;
+        margin: 0px;
+
+    }
+
+    .socials {
+        border: 2px blue solid;
+        display: inline;
+    }
+
+    .socialslinks tr {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    #special_knife_desc {
+        margin-right: 10px;
+    }
 }
